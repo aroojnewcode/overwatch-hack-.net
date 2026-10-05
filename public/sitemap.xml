@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url>
+    <loc>https://overwatchhack.net/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://overwatchhack.net/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://overwatchhack.net/" />
+    <image:image>
+      <image:loc>https://overwatchhack.net/og/home.jpg</image:loc>
+      <image:title>Overwatch Hack Open Graph</image:title>
+      <image:caption>Google and social preview image for overwatchhack.net homepage.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://overwatchhack.net/media/overwatch-wallhack-players.png</image:loc>
+      <image:title>Overwatch Hack Hero</image:title>
+      <image:caption>Buy Overwatch hack - Overwatch Aimbot, ESP and radar hack hero artwork for PC.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://overwatchhack.net/media/overwatch-radar-esp.png</image:loc>
+      <image:title>Overwatch Hack Product Cover</image:title>
+      <image:caption>Overwatch hack product cover for checkout and social previews.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://overwatchhack.net/media/overwatch-product-poster.jpg</image:loc>
+      <image:title>Overwatch Hack Preview Thumbnail</image:title>
+      <image:caption>Thumbnail for the Overwatch Aimbot and ESP preview video.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://overwatchhack.net/og/overwatch-hack.jpg</image:loc>
+      <image:title>Overwatch Hack Product Social Preview</image:title>
+      <image:caption>Default Open Graph image for overwatchhack.net product pages.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://overwatchhack.net/overwatch-hack</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://overwatchhack.net/overwatch-hack" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://overwatchhack.net/overwatch-hack" />
+    <image:image>
+      <image:loc>https://overwatchhack.net/og/overwatch-hack.jpg</image:loc>
+      <image:title>Overwatch Hack Open Graph</image:title>
+      <image:caption>Google and social preview for the Overwatch hack product page.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://overwatchhack.net/media/overwatch-radar-esp.png</image:loc>
+      <image:title>Overwatch Aimbot ESP Product Artwork</image:title>
+      <image:caption>Product features, compatibility, status and price before checkout.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://overwatchhack.net/media/overwatch-wallhack-players.png</image:loc>
+      <image:title>Overwatch 2 Cheats Product Hero</image:title>
+      <image:caption>Hero artwork for Overwatch 2 Aimbot, ESP and radar hack product details.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://overwatchhack.net/media/overwatch-esp-street.png</image:loc>
+      <image:title>Overwatch 2 Cheats Menu Preview</image:title>
+      <image:caption>Menu and Aimbot settings preview for Overwatch 2 cheats.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://overwatchhack.net/media/overwatch-esp-street.png</image:loc>
+      <image:title>Overwatch 2 ESP Gameplay</image:title>
+      <image:caption>Player ESP and wallhack preview for Overwatch 2.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://overwatchhack.net/media/overwatch-product-poster.jpg</image:loc>
+      <image:title>Overwatch Hack Preview Thumbnail</image:title>
+      <image:caption>Thumbnail for the Overwatch hack preview video.</image:caption>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://overwatchhack.net/media/overwatch-product-poster.jpg</video:thumbnail_loc>
+      <video:title>Overwatch Hack Aimbot and ESP Preview</video:title>
+      <video:description>Self-hosted Overwatch hack preview showing Aimbot, ESP menu and match gameplay on PC.</video:description>
+      <video:content_loc>https://overwatchhack.net/videos/overwatch-product-loop.mp4</video:content_loc>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://overwatchhack.net/forums</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://overwatchhack.net/forums" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://overwatchhack.net/forums" />
+    <image:image>
+      <image:loc>https://overwatchhack.net/og/forums.jpg</image:loc>
+      <image:title>Overwatch Hack Forums Open Graph</image:title>
+      <image:caption>Google preview image for the Overwatch Hack guides index.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://overwatchhack.net/media/overwatch-esp-street.png</image:loc>
+      <image:title>Overwatch Hack Forum Artwork</image:title>
+      <image:caption>Artwork reference for Overwatch setup and feature guides.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://overwatchhack.net/forums/aimbot-settings</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://overwatchhack.net/forums/aimbot-settings" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://overwatchhack.net/forums/aimbot-settings" />
+    <image:image>
+      <image:loc>https://overwatchhack.net/og/forums-aimbot-settings.jpg</image:loc>
+      <image:title>Overwatch Aimbot Settings for Silent Aim Open Graph</image:title>
+      <image:caption>Overwatch Aimbot settings for PC: silent aim, FOV, smoothing and visible-check so your Overwatch hack looks legit in Quick Play and Competitive. Start conservative, then save configs.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://overwatchhack.net/media/overwatch-esp-street.png</image:loc>
+      <image:title>Overwatch Aimbot Settings for Silent Aim Artwork</image:title>
+      <image:caption>Tune Overwatch Aimbot FOV, smoothing, hitbox and silent aim so player tracking stays effective without looking robotic to spectating admins.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://overwatchhack.net/forums/anti-cheat-status</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://overwatchhack.net/forums/anti-cheat-status" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://overwatchhack.net/forums/anti-cheat-status" />
+    <image:image>
+      <image:loc>https://overwatchhack.net/og/forums-anti-cheat-status.jpg</image:loc>
+      <image:title>Overwatch anti-cheat Status: Clear to Load vs Updating Open Graph</image:title>
+      <image:caption>Overwatch anti-cheat status explained for Overwatch hack: clear-to-load vs Updating after patches, why you wait, and how admin bans differ from anti-cheat detections.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://overwatchhack.net/media/overwatch-radar-esp.png</image:loc>
+      <image:title>Overwatch anti-cheat Status: Clear to Load vs Updating Artwork</image:title>
+      <image:caption>What clear-to-load and Updating mean for Overwatch hack after anti-cheat and game patches - and why admin bans are a separate risk.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://overwatchhack.net/forums/complete-setup</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://overwatchhack.net/forums/complete-setup" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://overwatchhack.net/forums/complete-setup" />
+    <image:image>
+      <image:loc>https://overwatchhack.net/og/forums-complete-setup.jpg</image:loc>
+      <image:title>Complete Overwatch Hack Setup Open Graph</image:title>
+      <image:caption>Complete Overwatch hack setup for Windows PC: buy when status is clear, antivirus exclusions, load order, first-run ESP and Aimbot config, then re-check anti-cheat after every patch.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://overwatchhack.net/media/overwatch-wallhack-players.png</image:loc>
+      <image:title>Complete Overwatch Hack Setup Artwork</image:title>
+      <image:caption>Step-by-step Overwatch hack setup: buy from $35, antivirus exclusions, load order, enable ESP and Aimbot, save configs, re-check anti-cheat status.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://overwatchhack.net/forums/disable-antivirus</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://overwatchhack.net/forums/disable-antivirus" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://overwatchhack.net/forums/disable-antivirus" />
+    <image:image>
+      <image:loc>https://overwatchhack.net/og/forums-disable-antivirus.jpg</image:loc>
+      <image:title>Antivirus Exclusions for Overwatch Hack Open Graph</image:title>
+      <image:caption>Allowlist Overwatch hack loaders in Windows Defender and third-party antivirus before you load. Restore quarantines, exclude the delivery folder, then continue setup when status is clear.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://overwatchhack.net/media/overwatch-esp-street.png</image:loc>
+      <image:title>Antivirus Exclusions for Overwatch Hack Artwork</image:title>
+      <image:caption>Allowlist Overwatch hack in Windows Defender and common antivirus so the loader is not quarantined before first run.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://overwatchhack.net/forums/esp-wallhack-guide</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://overwatchhack.net/forums/esp-wallhack-guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://overwatchhack.net/forums/esp-wallhack-guide" />
+    <image:image>
+      <image:loc>https://overwatchhack.net/og/forums-esp-wallhack-guide.jpg</image:loc>
+      <image:title>Overwatch ESP and Wallhack Setup Open Graph</image:title>
+      <image:caption>Overwatch ESP and wallhack setup: player boxes, skeletons, distance, health, ultimate and ability ESP through cover. Clean HUD defaults for Overwatch hack on PC.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://overwatchhack.net/media/overwatch-esp-street.png</image:loc>
+      <image:title>Overwatch ESP and Wallhack Setup Artwork</image:title>
+      <image:caption>Configure Overwatch ESP and wallhack for player boxes, utility tracking and utility highlighting without flooding your HUD.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://overwatchhack.net/forums/features-list</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://overwatchhack.net/forums/features-list" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://overwatchhack.net/forums/features-list" />
+    <image:image>
+      <image:loc>https://overwatchhack.net/og/forums-features-list.jpg</image:loc>
+      <image:title>Overwatch hack Features Checklist Open Graph</image:title>
+      <image:caption>Overwatch hack features checklist: silent aim Aimbot, player ESP, ultimate and ability ESP, wallhack, radar hack and spoofer on overwatchhack.net from $35. Compare modules before you buy.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://overwatchhack.net/media/overwatch-radar-esp.png</image:loc>
+      <image:title>Overwatch hack Features Checklist Artwork</image:title>
+      <image:caption>Checklist of every Overwatch hack module on overwatchhack.net - silent aim, player ESP, ultimate and ability ESP, wallhack, radar hack and spoofer - before you open checkout from $35.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://overwatchhack.net/forums/hotkeys</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://overwatchhack.net/forums/hotkeys" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://overwatchhack.net/forums/hotkeys" />
+    <image:image>
+      <image:loc>https://overwatchhack.net/og/forums-hotkeys.jpg</image:loc>
+      <image:title>Overwatch Hack Hotkeys After Load Open Graph</image:title>
+      <image:caption>Overwatch hack hotkeys after checkout: open menu, Aimbot toggle, player ESP, ultimate and ability ESP, radar hack and stream-proof binds. Keep panic keys minimal for field use.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://overwatchhack.net/media/overwatch-esp-street.png</image:loc>
+      <image:title>Overwatch Hack Hotkeys After Load Artwork</image:title>
+      <image:caption>Menu and toggle hotkeys for Overwatch hack after a clean load - Aimbot, ESP, ultimate and ability ESP, radar and panic binds.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://overwatchhack.net/forums/loader-errors</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://overwatchhack.net/forums/loader-errors" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://overwatchhack.net/forums/loader-errors" />
+    <image:image>
+      <image:loc>https://overwatchhack.net/og/forums-loader-errors.jpg</image:loc>
+      <image:title>Fix Overwatch Hack Loader Errors Open Graph</image:title>
+      <image:caption>Fix Overwatch hack loader errors on Windows: antivirus quarantine, overlays, failed inject and menu not opening. Confirm anti-cheat status is clear first, then escalate with your order ID.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://overwatchhack.net/media/overwatch-radar-esp.png</image:loc>
+      <image:title>Fix Overwatch Hack Loader Errors Artwork</image:title>
+      <image:caption>Troubleshoot Overwatch hack loader errors - menu not opening, instant close, antivirus quarantine and failed inject.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://overwatchhack.net/forums/match-play-guide</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://overwatchhack.net/forums/match-play-guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://overwatchhack.net/forums/match-play-guide" />
+    <image:image>
+      <image:loc>https://overwatchhack.net/og/forums-match-play-guide.jpg</image:loc>
+      <image:title>Safer Overwatch hack Settings for Match Plays Open Graph</image:title>
+      <image:caption>Safer Overwatch hack settings for Competitive and Quick Play: ESP-first play, mild silent aim, ultimate awareness, radar hack and anti-cheat habits that reduce report risk.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://overwatchhack.net/media/overwatch-esp-aimbot.png</image:loc>
+      <image:title>Safer Overwatch hack Settings for Match Plays Artwork</image:title>
+      <image:caption>Safer Overwatch hack defaults for competitive matchmaking - ESP-first play, mild silent aim, radar awareness and report-conscious habits.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://overwatchhack.net/forums/radar-hack-guide</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://overwatchhack.net/forums/radar-hack-guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://overwatchhack.net/forums/radar-hack-guide" />
+    <image:image>
+      <image:loc>https://overwatchhack.net/og/forums-radar-hack-guide.jpg</image:loc>
+      <image:title>Overwatch Radar Hack Overlay Guide Open Graph</image:title>
+      <image:caption>Overwatch radar hack guide for PC: 2D radar overlay, off-screen enemy tracking and safer objective approaches. Pair with ESP so your Overwatch hack stays readable.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://overwatchhack.net/media/overwatch-esp-street.png</image:loc>
+      <image:title>Overwatch Radar Hack Overlay Guide Artwork</image:title>
+      <image:caption>Use the Overwatch radar hack 2D overlay to track off-screen players, avoid flanks and approach the objective safer.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://overwatchhack.net/forums/stream-proof-setup</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://overwatchhack.net/forums/stream-proof-setup" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://overwatchhack.net/forums/stream-proof-setup" />
+    <image:image>
+      <image:loc>https://overwatchhack.net/og/forums-stream-proof-setup.jpg</image:loc>
+      <image:title>Stream-Proof Overwatch Hack for OBS Open Graph</image:title>
+      <image:caption>Stream-proof Overwatch hack for OBS and clips: keep ESP, wallhack and Aimbot overlays off recordings while you still see them locally. Test with a private capture first.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://overwatchhack.net/media/overwatch-wallhack-players.png</image:loc>
+      <image:title>Stream-Proof Overwatch Hack for OBS Artwork</image:title>
+      <image:caption>Hide Overwatch ESP, utility highlighting and Aimbot overlays from OBS and capture tools with stream-proof mode.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://overwatchhack.net/forums/undetected-status</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://overwatchhack.net/forums/undetected-status" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://overwatchhack.net/forums/undetected-status" />
+    <image:image>
+      <image:loc>https://overwatchhack.net/og/forums-undetected-status.jpg</image:loc>
+      <image:title>Anti-cheat Status Checklist Before You Buy or Load Open Graph</image:title>
+      <image:caption>anti-cheat status checklist for Overwatch hack: confirm clear-to-load before checkout and before every post-patch session. Wait when Updating; buy from $35 when status is live.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://overwatchhack.net/media/overwatch-radar-esp.png</image:loc>
+      <image:title>Anti-cheat Status Checklist Before You Buy or Load Artwork</image:title>
+      <image:caption>Short anti-cheat status checklist for Overwatch hack - confirm clear-to-load before checkout and before every post-patch session.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://overwatchhack.net/forums/windows-setup</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://overwatchhack.net/forums/windows-setup" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://overwatchhack.net/forums/windows-setup" />
+    <image:image>
+      <image:loc>https://overwatchhack.net/og/forums-windows-setup.jpg</image:loc>
+      <image:title>Overwatch Hack on Windows 10 and 11 Open Graph</image:title>
+      <image:caption>Windows 10 and 11 setup for Overwatch hack: close overlays, add Defender exclusions, launch with correct permissions and run a clean first load when status is clear.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://overwatchhack.net/media/overwatch-wallhack-players.png</image:loc>
+      <image:title>Overwatch Hack on Windows 10 and 11 Artwork</image:title>
+      <image:caption>Windows 10/11 prep for Overwatch hack - overlays, Defender exclusions, admin rights and a clean first launch with clear anti-cheat status.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://overwatchhack.net/reviews</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://overwatchhack.net/reviews" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://overwatchhack.net/reviews" />
+    <image:image>
+      <image:loc>https://overwatchhack.net/og/reviews.jpg</image:loc>
+      <image:title>Overwatch Hack Reviews Open Graph</image:title>
+      <image:caption>Google preview image for Overwatch hack reviews.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://overwatchhack.net/faq</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://overwatchhack.net/faq" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://overwatchhack.net/faq" />
+    <image:image>
+      <image:loc>https://overwatchhack.net/og/faq.jpg</image:loc>
+      <image:title>Overwatch Hack FAQ Open Graph</image:title>
+      <image:caption>Google preview image for the Overwatch Hack FAQ.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://overwatchhack.net/support</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://overwatchhack.net/support" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://overwatchhack.net/support" />
+    <image:image>
+      <image:loc>https://overwatchhack.net/og/support.jpg</image:loc>
+      <image:title>Overwatch Hack Support Open Graph</image:title>
+      <image:caption>Google preview image for Overwatch Hack support.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://overwatchhack.net/privacy</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://overwatchhack.net/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://overwatchhack.net/privacy" />
+    <image:image>
+      <image:loc>https://overwatchhack.net/og/privacy.jpg</image:loc>
+      <image:title>Overwatch Hack Privacy Policy</image:title>
+      <image:caption>Privacy policy preview for overwatchhack.net orders and support.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://overwatchhack.net/refunds</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.45</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://overwatchhack.net/refunds" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://overwatchhack.net/refunds" />
+    <image:image>
+      <image:loc>https://overwatchhack.net/og/refunds.jpg</image:loc>
+      <image:title>Overwatch Hack Refund Policy</image:title>
+      <image:caption>Refund rules preview for digital Overwatch Hack licenses.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://overwatchhack.net/terms</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://overwatchhack.net/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://overwatchhack.net/terms" />
+    <image:image>
+      <image:loc>https://overwatchhack.net/og/terms.jpg</image:loc>
+      <image:title>Overwatch Hack Terms of Use</image:title>
+      <image:caption>License terms preview for Overwatch Hack.</image:caption>
+    </image:image>
+  </url>
+</urlset>
