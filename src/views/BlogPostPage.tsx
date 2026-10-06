@@ -2,7 +2,6 @@ import { ArrowLeft, ArrowRight } from 'lucide-react'
 import { Navbar } from '../components/Navbar'
 import { SiteFooter } from '../components/SiteFooter'
 import { BLOGS, blogPath, getBlog } from '../data/blogs'
-import { guidePath } from '../data/games'
 import { CheckoutLink } from '../components/CheckoutLink'
 import { SITE_HOST } from '../data/site'
 import { NotFoundPage } from './NotFoundPage'
@@ -101,21 +100,15 @@ export function BlogPostPage({ slug }: BlogPostPageProps) {
                 .
               </p>
               <div className="mt-5 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
-                <a
-                  href={guidePath('overwatch')}
-                  className="inline-flex items-center justify-center rounded-full border border-white/15 px-5 py-2.5 text-sm font-medium text-white hover:bg-white/5"
-                >
+                <CheckoutLink className="cta-gradient inline-flex items-center justify-center rounded-full px-5 py-2.5 text-sm font-medium text-white">
                   Buy Overwatch Hack
-                </a>
+                </CheckoutLink>
                 <a
                   href="/support"
                   className="inline-flex items-center justify-center rounded-full border border-white/15 px-5 py-2.5 text-sm font-medium text-white hover:bg-white/5"
                 >
                   Support
                 </a>
-                <CheckoutLink className="cta-gradient inline-flex items-center justify-center rounded-full px-5 py-2.5 text-sm font-medium text-white">
-                  Buy Overwatch Hack
-                </CheckoutLink>
               </div>
             </div>
 

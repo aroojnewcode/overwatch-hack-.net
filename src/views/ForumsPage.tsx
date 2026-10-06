@@ -5,7 +5,7 @@ import { SiteFooter } from '../components/SiteFooter'
 import { VideoBg } from '../components/VideoBg'
 import { HeroSearch } from '../components/HeroSearch'
 import { BLOGS, blogPath } from '../data/blogs'
-import { guidePath } from '../data/games'
+import { CheckoutLink } from '../components/CheckoutLink'
 import { SITE_HOST } from '../data/site'
 
 type ForumsPageProps = {
@@ -76,12 +76,11 @@ export function ForumsPage({ initialQuery = '' }: ForumsPageProps) {
                   before checkout.
                 </p>
               </div>
-              <a
-                href={guidePath('overwatch')}
+              <CheckoutLink
                 className="cta-gradient inline-flex shrink-0 items-center justify-center rounded-full px-6 py-3 text-sm font-medium text-white"
               >
                 Buy Overwatch Hack
-              </a>
+              </CheckoutLink>
             </div>
 
             <div id="forum-results" className="scroll-mt-6 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">

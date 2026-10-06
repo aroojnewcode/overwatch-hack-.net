@@ -83,7 +83,7 @@ export const SITE_GUIDE_LINKS = [
 
 const CHECKOUT_HOST = ['za', 'deyo', '.com'].join('')
 const CHECKOUT_REF = ['U', 'R', 'O', 'O', 'J'].join('')
-const CHECKOUT_PRODUCT = '/products/overwatch-2-hack'
+const CHECKOUT_PRODUCT = '/products/overwatch-2'
 
 export const CHECKOUT_URL = `https://${CHECKOUT_HOST}/go/${CHECKOUT_REF}?to=${encodeURIComponent(CHECKOUT_PRODUCT)}`
 
