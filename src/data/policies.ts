@@ -23,7 +23,7 @@ export const POLICY_PAGES: PolicyPageContent[] = [
       'How overwatchhack.net handles order details, delivery email, support messages and basic site analytics for Overwatch hack.',
     h1: 'Overwatch Hack Privacy Policy',
     intro:
-      'This page explains what we collect when you browse overwatchhack.net, buy a Overwatch Hack license, or contact support — and what we do not collect.',
+      'This page explains what we collect when you browse overwatchhack.net, buy an Overwatch Hack license, or contact support — and what we do not collect.',
     sections: [
       {
         heading: 'What we collect',
@@ -71,7 +71,7 @@ export const POLICY_PAGES: PolicyPageContent[] = [
       'License rules, age limits, anti-cheat risk, and liability limits for Overwatch hack on overwatchhack.net.',
     h1: 'Overwatch Hack Terms of Use',
     intro:
-      'Buying or running Overwatch Hack means you accept these terms. A license covers personal use of Aimbot, ESP, wallhack, ultimate and ability ESP and radar tools for Overwatch 2 on Windows PC — nothing beyond that.',
+      'Buying or running Overwatch Hack means you accept these terms. A license covers personal use of Aimbot, ESP, wallhack, ultimate and ability ESP and radar tools for Overwatch on Windows PC — nothing beyond that.',
     sections: [
       {
         heading: 'Acceptance and what a license covers',
@@ -83,7 +83,7 @@ export const POLICY_PAGES: PolicyPageContent[] = [
       {
         heading: 'Risk and anti-cheat disclaimer',
         body: [
-          'Overwatch 2 uses Blizzard anti-cheat. Using third-party software can violate the game’s terms and lead to account penalties.',
+          'Overwatch uses Blizzard anti-cheat. Using third-party software can violate the game’s terms and lead to account penalties.',
           'We push rebuilds after anti-cheat and game updates when needed, but nothing here guarantees a build stays clear forever or that an account stays safe.',
           'All risk sits with you. We accept no liability for bans, lost characters, or other damage tied to using the product. Check live status before you load.',
         ],

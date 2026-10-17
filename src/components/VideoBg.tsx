@@ -11,7 +11,7 @@ type VideoBgProps = {
 /** Full-bleed hero. A still paints first; an optional short loop plays over it. */
 export function VideoBg({
   image = OVERWATCH_HERO,
-  imageAlt = 'Overwatch 2 hero gameplay preview on the homepage background',
+  imageAlt = 'Overwatch hero gameplay preview on the homepage background',
   video,
 }: VideoBgProps) {
   return (
@@ -19,9 +19,11 @@ export function VideoBg({
       <div className="absolute inset-0 z-0 bg-z-bg" aria-hidden />
       <img
         src={image}
+        srcSet={`${image} 1x, ${image.replace(/(\.[^.]+)$/, '@2x$1')} 2x`}
         alt={imageAlt}
         width={1920}
-        height={1080}
+        height={767}
+        sizes="100vw"
         decoding="async"
         fetchPriority="high"
         className="hero-video-bg absolute inset-0 z-[1] h-full w-full object-cover object-center"

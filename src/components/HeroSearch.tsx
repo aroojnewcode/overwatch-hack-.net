@@ -18,7 +18,7 @@ export function HeroSearch({
   value,
   onChange,
   submitTo = 'forums',
-  placeholder = 'Search Overwatch Hack…',
+  placeholder = 'Search Hack…',
   autoFocus = false,
   className = '',
 }: HeroSearchProps) {
@@ -45,10 +45,10 @@ export function HeroSearch({
     const cheatAliases = [
       'overwatch hack',
       'overwatch hacks',
-      'overwatch cheat',
+      'cheat',
       'overwatch cheats',
-      'overwatch 2 hack',
-      'overwatch 2 cheats',
+      'overwatch hack',
+      'overwatch cheats',
       'overwatchhack',
       'cheats',
     ]

@@ -22,7 +22,7 @@ export default defineConfig({
     plugins: [sitemapBrowserViewPlugin()],
     server: {
       port: 5174,
-      strictPort: true,
+      strictPort: false,
     },
     preview: {
       port: 5175,

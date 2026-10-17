@@ -4,36 +4,39 @@ import { PAGE_OG } from './og'
 export const SITE_URL = 'https://overwatchhack.net'
 export const SITE_NAME = 'Overwatch Hack'
 export const SITE_HOST = 'overwatchhack.net'
+/** Visible domain + legal branding (always apex, no www). */
+export const SITE_DOMAIN = 'overwatchhack.net'
+export const SITE_BRAND_LINE = `${SITE_NAME} · ${SITE_DOMAIN}`
 export const PRODUCT_PATH = '/overwatch-hack'
 
 /**
  * Sole purpose — used in schema + about copy.
- * Single-product site: Overwatch 2 hack for PC (worldwide).
+ * Single-product site: Overwatch hack for PC (worldwide).
  * Canonical host is apex https://overwatchhack.net (www 301s to apex in the Worker).
  */
 export const SITE_PURPOSE =
-  'Buy an Overwatch 2 hack for Windows PC — silent-aim Aimbot, player ESP, wallhack, radar and live anti-cheat status with instant digital delivery.'
+  'Overwatch Hack on overwatchhack.net — buy an Overwatch hack for Windows PC with silent-aim Aimbot, player ESP, wallhack, radar and live anti-cheat status with instant digital delivery.'
 
 export const SITE_ABOUT = [
   'overwatch hack',
   'overwatch hacks',
-  'overwatch 2 hack',
+  'overwatch hack',
   'overwatch cheats',
   'overwatch aimbot',
   'overwatch esp',
   'overwatch wallhack',
   'overwatch radar',
-  'overwatch 2 aimbot',
+  'overwatch aimbot',
   'overwatchhack.net',
 ] as const
 
-/** Meta keywords for search engines (overwatch hack, overwatch cheat, Overwatch 2 hacks). */
+/** Meta keywords for search engines (overwatch hack, overwatch cheat, Overwatch hacks). */
 export const SITE_META_KEYWORDS = [
   ...new Set([
     ...SITE_ABOUT,
-    'overwatch 2 hacks',
-    'overwatch 2 cheat',
-    'overwatch 2 cheats',
+    'overwatch hacks',
+    'overwatch cheat',
+    'overwatch cheats',
     'overwatch cheat menu',
     'anti-cheat status overwatch',
   ]),
@@ -65,33 +68,43 @@ const INDEX_ROBOTS =
 
 export const SEO = {
   home: {
-    title: 'Overwatch Hack | Overwatch 2 Aimbot, ESP & Wallhack',
+    title: 'Overwatch Hack | Overwatch Aimbot, ESP & Wallhack',
     description:
-      'Overwatch 2 cheats for Windows 10/11 — Overwatch hack with Aimbot, ESP, wallhack and radar from $35. Check live anti-cheat status, then checkout.',
+      'Overwatch cheats for Windows 10/11 — Overwatch hack with Aimbot, ESP, wallhack and radar from $35. Check live anti-cheat status, then checkout.',
     path: '/',
     ogType: 'website',
     image: PAGE_OG.home,
-    imageAlt: 'Overwatch Hack — Overwatch 2 Aimbot, ESP and radar for PC',
+    imageAlt: 'Overwatch Hack — Overwatch Aimbot, ESP and radar for PC',
     robots: INDEX_ROBOTS,
   },
   forums: {
-    title: 'Overwatch Hack Guides | Aimbot, ESP, Radar & Anti-cheat Status',
+    title: 'Overwatch Hack Community Forum | Setup Q&A & Patch Talk',
     description:
-      'Overwatch hack guides — silent aim, player ESP, radar, antivirus exclusions, menu setup and anti-cheat status articles before you buy.',
+      'Overwatch Hack community forum — setup questions, guide-based Q&A, patch-day status threads and safer Competitive settings from overwatchhack.net.',
     path: '/forums',
+    ogType: 'website',
+    image: PAGE_OG.forums,
+    imageAlt: 'Overwatch Hack community forum for setup and patch discussions',
+    robots: INDEX_ROBOTS,
+  },
+  blog: {
+    title: 'Overwatch Hack Blogs | Setup, ESP & Aimbot Guides',
+    description:
+      'Overwatch hack blogs — silent aim, player ESP, radar, antivirus exclusions, menu setup and anti-cheat status before you buy.',
+    path: '/blog',
     ogType: 'website',
     image: PAGE_OG.forums,
     imageAlt: 'Overwatch Hack setup guides for Aimbot, ESP and anti-cheat status',
     robots: INDEX_ROBOTS,
   },
   reviews: {
-    title: 'Overwatch Hack Reviews | Buyer Feedback on Overwatch 2',
+    title: 'Overwatch Hack Reviews | Buyer Feedback on Overwatch',
     description:
-      'Read Overwatch hack reviews covering silent aim, player ESP and anti-cheat rebuilds before you buy an Overwatch 2 license for PC.',
+      'Read Overwatch hack reviews covering silent aim, player ESP and anti-cheat rebuilds before you buy an Overwatch license for PC.',
     path: '/reviews',
     ogType: 'website',
     image: PAGE_OG.reviews,
-    imageAlt: 'Overwatch Hack buyer reviews for Overwatch 2',
+    imageAlt: 'Overwatch Hack buyer reviews for Overwatch',
     robots: INDEX_ROBOTS,
   },
   faq: {
@@ -121,13 +134,13 @@ export const SEO = {
     path: PRODUCT_PATH,
     ogType: 'product',
     image: PAGE_OG.product,
-    imageAlt: 'Overwatch 2 Aimbot, ESP and radar product details',
+    imageAlt: 'Overwatch Aimbot, ESP and radar product details',
     robots: INDEX_ROBOTS,
   },
 } as const satisfies Record<string, PageSeo>
 
 export const HOME_HEADINGS = {
-  h1: 'Overwatch Hack — Overwatch 2 Aimbot, ESP & Wallhack',
+  h1: 'Overwatch Hack — Overwatch Aimbot, ESP & Wallhack',
   h2Features: 'Overwatch Aimbot, ESP, wallhack & radar',
   h2Featured: 'Overwatch ESP and silent aim Aimbot',
   h2About: 'Check anti-cheat status before you buy an Overwatch hack',

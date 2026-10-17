@@ -1,20 +1,31 @@
-# Overwatch Hack (overwatchhack.net)
+# Overwatch Hack — [overwatchhack.net](https://overwatchhack.net)
 
-Static Astro site for Overwatch 2 — Aimbot, ESP, wallhack, radar — deployed with Cloudflare Workers.
+Marketing site for **Overwatch Hack**: Overwatch aimbot, ESP, wallhack, and radar on Windows PC.  
+Canonical domain: **https://overwatchhack.net** (www redirects to apex).
+
+GitHub: [aroojnewcode/overwatch-hack-.net](https://github.com/aroojnewcode/overwatch-hack-.net)
 
 ```bash
 npm install
-npm run dev
+npm run dev      # http://localhost:5174
 npm run build
 npx wrangler deploy
 ```
 
-## Cloudflare: “repository no longer exists”
+## Stack
 
-Cloudflare still points at an old GitHub repo. Fix it in the dashboard (not in code):
+- Astro + React (static export)
+- Cloudflare Workers (`workers/site.js`) + assets from `dist/`
+- Routes: `overwatchhack.net`, `www.overwatchhack.net`
+- Checkout: Zadeyo affiliate → Overwatch product
 
-1. [Cloudflare Dashboard](https://dash.cloudflare.com) → **Workers & Pages** → your worker (`dayzqrh`).
-2. **Settings** → **Builds** → **Disconnect** the broken Git repository.
-3. Either **Connect** again and choose **`aroojnewcode/overwatch-hack-net`** / branch **`main`**, or leave Git disconnected and use **GitHub Actions** (`.github/workflows/deploy.yml`).
-4. On GitHub: **Settings → Secrets and variables → Actions** — add `CLOUDFLARE_API_TOKEN` (Workers edit) and `CLOUDFLARE_ACCOUNT_ID` (dashboard URL).
-5. On GitHub: **Settings → Applications** → Cloudflare Workers & Pages → grant access to **`overwatch-hack-net`** if you reconnect Git in Cloudflare.
+## Cloudflare deploy
+
+1. [Cloudflare Dashboard](https://dash.cloudflare.com) → **Workers & Pages** → worker bound to this repo (name may still show legacy `dayzqrh` in the dashboard).
+2. Custom domains must be **overwatchhack.net** and **www.overwatchhack.net** (see `wrangler.toml`).
+3. If Git connect fails, use **GitHub Actions** (`.github/workflows/deploy.yml`) with secrets `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`.
+
+## SEO
+
+- Single sitemap: `/sitemap.xml` (22 pages)
+- `npm run verify:seo` runs after `npm run build`

@@ -6,16 +6,12 @@ export type FaqItem = {
 /** Master FAQ — visible on /faq and reused in sections. */
 export const SITE_FAQS: FaqItem[] = [
   {
-    q: 'What is Overwatch Hack?',
-    a: 'Overwatch Hack is a Overwatch 2 tool on overwatchhack.net — silent-aim Aimbot, player ESP, wallhack and a 2D radar — with live anti-cheat status after game patches.',
-  },
-  {
     q: 'How much does the Overwatch hack cost?',
     a: 'The Overwatch hack starts from $35 for short access. Longer licenses cost more. Always confirm live anti-cheat status and the price on overwatchhack.net before checkout.',
   },
   {
     q: 'Do you sell hacks for other games?',
-    a: 'No. overwatchhack.net sells a Overwatch 2 hack only — one product, no multi-game catalog.',
+    a: 'No. overwatchhack.net sells an Overwatch hack only — one product, no multi-game catalog.',
   },
   {
     q: 'Is Aimbot the main feature?',
@@ -23,19 +19,19 @@ export const SITE_FAQS: FaqItem[] = [
   },
   {
     q: 'How do you handle anti-cheat updates?',
-    a: 'We publish live clear-to-load or Updating labels after Overwatch 2 and Overwatch 2 patches. Always check status on overwatchhack.net before you open the menu.',
+    a: 'We publish live clear-to-load or Updating labels after Overwatch and anti-cheat patches. Always check status on overwatchhack.net before you open the menu.',
   },
   {
     q: 'What is Overwatch ESP / wallhack?',
-    a: 'Overwatch ESP and wallhack show players through walls and smokes with distance and health when supported, so you can read a site before you peek.',
+    a: 'Overwatch ESP and wallhack show heroes through walls and smokes with distance and health when supported, so you can read the fight before you peek.',
   },
   {
     q: 'What is the Overwatch radar?',
-    a: "The radar is a 2D overlay for off-screen players — useful for flanks on King's Row, Busan, Midtown and the rest of the Active Duty maps.",
+    a: "The radar is a 2D overlay for off-screen heroes — useful for flanks on King's Row, Busan, Midtown and other Overwatch maps.",
   },
   {
     q: 'What features are included?',
-    a: 'Overwatch Aimbot with silent aim, player ESP, wallhack, radar, triggerbot, ultimate and ability awareness, and stream-proof options — Overwatch 2 on Windows PC only. See the Features Checklist guide for the full list.',
+    a: 'Overwatch Aimbot with silent aim, player ESP, wallhack, radar, triggerbot, ultimate and ability awareness, and stream-proof options — Overwatch on Windows PC only. See the Features Checklist guide for the full list.',
   },
   {
     q: 'Does the Overwatch hack work in Competitive and Quick Play?',
@@ -63,23 +59,23 @@ export const SITE_FAQS: FaqItem[] = [
   },
   {
     q: 'Is this the official Overwatch site?',
-    a: 'No. We sell a Overwatch hack only. Buy and play the game on Battle.net. We are not affiliated with Blizzard or Overwatch 2.',
+    a: 'No. We sell an Overwatch hack only. Buy and play the game on Battle.net. We are not affiliated with Blizzard or Overwatch.',
   },
 ]
 
 /** Commercial questions shown on the homepage; FAQ schema lives on /faq only. */
 export const HOME_FAQS: FaqItem[] = [
-  SITE_FAQS[1],
+  SITE_FAQS[0],
+  SITE_FAQS[3],
   SITE_FAQS[4],
-  SITE_FAQS[5],
-  SITE_FAQS[9],
+  SITE_FAQS[8],
 ]
 
 export const PRODUCT_PAGE_FAQS: FaqItem[] = [
-  SITE_FAQS[1],
+  SITE_FAQS[0],
+  SITE_FAQS[3],
   SITE_FAQS[4],
   SITE_FAQS[5],
-  SITE_FAQS[6],
-  SITE_FAQS[9],
-  SITE_FAQS[11],
+  SITE_FAQS[8],
+  SITE_FAQS[10],
 ]

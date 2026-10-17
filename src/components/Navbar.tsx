@@ -1,12 +1,14 @@
 import { useEffect, useState } from 'react'
 import { Menu, X } from 'lucide-react'
 import { LogoMark } from './LogoMark'
-import { CheckoutLink } from './CheckoutLink'
-import { PRODUCT_PATH, SITE_NAME } from '../data/site'
+import { ProductCTALink } from './ProductCTALink'
+import { PRODUCT_PATH, SITE_HOST, SITE_NAME } from '../data/site'
 
 /** Lean nav — Reviews stay in footer. */
 const NAV_LINKS = [
+  { label: 'Home', to: '/' },
   { label: 'Forums', to: '/forums' },
+  { label: 'Blog', to: '/blog' },
   { label: 'Product', to: PRODUCT_PATH },
   { label: 'Reviews', to: '/reviews' },
   { label: 'FAQ', to: '/faq' },
@@ -32,10 +34,13 @@ export function Navbar({ onVideo: _onVideo = false }: NavbarProps) {
   return (
     <>
       <nav className="page-x relative z-20 flex items-center justify-between gap-3 py-4 sm:py-5">
-        <a href="/" className="flex min-w-0 items-center gap-2.5">
+        <a href="/" className="flex min-w-0 items-center gap-2.5" title={`${SITE_NAME} — ${SITE_HOST}`}>
           <LogoMark className={`${brandClass} shrink-0 text-z-soft`} />
-          <span className={`truncate text-sm font-semibold tracking-tight sm:text-base ${brandClass}`}>
-            {SITE_NAME}
+          <span className="min-w-0 leading-tight">
+            <span className={`block truncate text-sm font-semibold tracking-tight sm:text-base ${brandClass}`}>
+              {SITE_NAME}
+            </span>
+            <span className="hidden truncate text-[10px] font-medium text-white/40 sm:block">{SITE_HOST}</span>
           </span>
         </a>
 
@@ -51,9 +56,9 @@ export function Navbar({ onVideo: _onVideo = false }: NavbarProps) {
               </a>
             ))}
           </div>
-          <CheckoutLink className="cta-gradient flex items-center self-stretch rounded-full px-5 text-sm font-semibold text-white transition-opacity hover:opacity-90">
+          <ProductCTALink className="cta-gradient flex items-center self-stretch rounded-full px-5 text-sm font-semibold text-white transition-opacity hover:opacity-90">
             Get
-          </CheckoutLink>
+          </ProductCTALink>
         </div>
 
         <button
@@ -87,13 +92,6 @@ export function Navbar({ onVideo: _onVideo = false }: NavbarProps) {
         }`}
       >
         <div className="flex flex-col gap-1 px-5 pt-24">
-          <a
-            href="/"
-            onClick={() => setMenuOpen(false)}
-            className="rounded-xl px-4 py-3 text-base font-medium text-z-ink/80 transition-all hover:bg-z-accent/15 hover:text-z-ink"
-          >
-            Home
-          </a>
           {NAV_LINKS.map((link, index) => (
             <a
               key={link.label}
@@ -103,7 +101,7 @@ export function Navbar({ onVideo: _onVideo = false }: NavbarProps) {
               style={{
                 opacity: menuOpen ? 1 : 0,
                 transform: menuOpen ? 'translateX(0)' : 'translateX(24px)',
-                transitionDelay: menuOpen ? `${(index + 1) * 50}ms` : '0ms',
+                transitionDelay: menuOpen ? `${index * 50}ms` : '0ms',
               }}
             >
               {link.label}
@@ -111,12 +109,12 @@ export function Navbar({ onVideo: _onVideo = false }: NavbarProps) {
           ))}
         </div>
         <div className="mt-auto px-5 pb-[max(2.5rem,env(safe-area-inset-bottom))]">
-          <CheckoutLink
+          <ProductCTALink
             onClick={() => setMenuOpen(false)}
             className="cta-gradient block w-full rounded-full px-6 py-3 text-center text-sm font-semibold text-white"
           >
             Get
-          </CheckoutLink>
+          </ProductCTALink>
         </div>
       </div>
     </>

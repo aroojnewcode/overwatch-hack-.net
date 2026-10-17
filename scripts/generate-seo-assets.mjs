@@ -116,7 +116,7 @@ const staticOg = [
     file: 'home.jpg',
     source: heroPoster,
     eyebrow: 'Overwatch HACK',
-    title: 'Overwatch 2 Aimbot, ESP & Radar',
+    title: 'Overwatch Aimbot, ESP & Radar',
     subtitle: 'Overwatch cheats from $35 · live anti-cheat status',
   },
   {

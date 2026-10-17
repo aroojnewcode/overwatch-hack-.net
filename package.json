@@ -5,6 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev --port 5174 --host",
+    "dev:5180": "astro dev --port 5180 --host",
+    "dev:5190": "astro dev --port 5190 --host",
+    "dev:5200": "astro dev --port 5200 --host",
     "build": "node scripts/generate-seo-assets.mjs && node scripts/generate-sitemaps.mjs && astro build && node scripts/verify-seo.mjs",
     "preview": "astro preview --port 5175",
     "deploy": "wrangler deploy",

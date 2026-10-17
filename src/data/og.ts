@@ -31,7 +31,7 @@ export function getOgImageForPath(path?: string): string {
   ) {
     return OG_PRODUCT
   }
-  if (path === '/forums') return OG_FORUMS
+  if (path === '/forums' || path === '/blog') return OG_FORUMS
   if (path === '/reviews') return OG_REVIEWS
   if (path === '/faq') return OG_FAQ
   if (path === '/support') return OG_SUPPORT

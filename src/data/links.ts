@@ -1,15 +1,15 @@
 import { blogPath } from './blog-paths'
 import { PRODUCT_PATH } from './site'
 
-/** Official Overwatch 2 destinations for factual game context. */
+/** Official Overwatch destinations for factual game context. */
 export const OFFICIAL_OVERWATCH_LINKS = [
   {
-    label: 'Overwatch 2',
+    label: 'Overwatch',
     href: 'https://overwatch.blizzard.com/',
-    description: 'Official Overwatch 2 site',
+    description: 'Official Overwatch site',
   },
   {
-    label: 'Overwatch 2 on Battle.net',
+    label: 'Overwatch on Battle.net',
     href: 'https://battle.net/shop/en-us/product/overwatch',
     description: 'Official PC store page and client download',
   },
@@ -22,16 +22,21 @@ export const OFFICIAL_OVERWATCH_LINKS = [
 
 /** Primary internal routes for crawl equity. */
 export const SITE_PAGE_LINKS = [
-  { label: 'Home', to: '/', description: 'Live status, price and checkout' },
+  { label: 'Home', to: '/', description: 'Overwatch Hack on overwatchhack.net — status and checkout' },
   {
-    label: 'Product page',
+    label: 'Overwatch Hack product',
     to: PRODUCT_PATH,
-    description: 'Aimbot, ESP, wallhack, radar and compatibility details',
+    description: 'Overwatch aimbot, ESP, wallhack, radar — overwatchhack.net',
   },
   {
-    label: 'Forums index',
+    label: 'Community forum',
     to: '/forums',
-    description: 'Setup forums — Aimbot, ESP, menu, status',
+    description: 'Overwatch Hack forum — setup Q&A on overwatchhack.net',
+  },
+  {
+    label: 'Blog',
+    to: '/blog',
+    description: 'Overwatch Hack blogs and setup guides',
   },
   {
     label: 'Player reviews',

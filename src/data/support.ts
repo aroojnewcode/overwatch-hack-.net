@@ -16,7 +16,7 @@ export const SUPPORT_TOPICS: SupportTopic[] = [
     heading: 'Status before you load',
     body: [
       'Check live status on the product page. If it says Updating, do not load. Wait until it is clear to load again.',
-      'Overwatch 2 patches can invalidate yesterday’s build. Status honesty matters more than rushing a session.',
+      'Overwatch patches can invalidate yesterday’s build. Status honesty matters more than rushing a session.',
     ],
   },
   {
@@ -35,7 +35,7 @@ export const SUPPORT_TOPICS: SupportTopic[] = [
   {
     heading: 'What we can and cannot help with',
     body: [
-      'Supported: Overwatch 2 on Windows, Quick Play, Competitive and Arcade, loader and menu help for paid licenses.',
+      'Supported: Overwatch on Windows, Quick Play, Competitive and Arcade, loader and menu help for paid licenses.',
       'Not supported: other games, cracked loaders or third-party mirrors.',
     ],
   },
@@ -52,7 +52,7 @@ export const SUPPORT_FAQS: SupportFaq[] = [
   },
   {
     q: 'Menu opened once then never again?',
-    a: 'Do not spam launch. Restart Overwatch 2, confirm antivirus exclusions, re-check status, then try one clean load. If it still fails, contact support with your order ID.',
+    a: 'Do not spam launch. Restart Overwatch, confirm antivirus exclusions, re-check status, then try one clean load. If it still fails, contact support with your order ID.',
   },
   {
     q: 'Do you support private Overwatch servers?',

@@ -80,7 +80,7 @@ const support = readFileSync(join(dist, 'support', 'index.html'), 'utf8')
 const forums = readFileSync(join(dist, 'forums', 'index.html'), 'utf8')
 
 if (
-  !home.includes('<title>Overwatch Hack | Overwatch 2 Aimbot, ESP &amp; Wallhack</title>')
+  !home.includes('<title>Overwatch Hack | Overwatch Aimbot, ESP &amp; Wallhack</title>')
 ) {
   fail('Homepage does not own the exact transactional title')
 }

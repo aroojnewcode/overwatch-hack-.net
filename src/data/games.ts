@@ -7,9 +7,9 @@ export type Game = {
   popular?: boolean
 }
 
-/** Site is a Overwatch 2 hack only — no other titles in the catalog. */
+/** overwatchhack.net — Overwatch hack only; no other titles in the catalog. */
 export const GAMES: Game[] = [
-  { slug: 'overwatch', name: 'Overwatch 2', status: 'Undetected', popular: true },
+  { slug: 'overwatch', name: 'Overwatch', status: 'Undetected', popular: true },
 ]
 
 export function getGame(slug: string) {
@@ -50,15 +50,15 @@ export const GUIDE_FEATURES = [
   },
   {
     name: 'Quick Play, Competitive and Arcade',
-    text: 'Built for Overwatch 2 on official Blizzard matchmaking and Arcade modes.',
+    text: 'Built for Overwatch on official Blizzard matchmaking and Arcade modes.',
   },
   {
     name: 'Stream-proof overlay',
     text: 'Keep supported overlays off OBS and common capture tools while you still see them locally.',
   },
   {
-    name: 'anti-cheat status + support',
-    text: 'Live clear-to-load or Updating status is reviewed after anti-cheat and Overwatch 2 patches before you open the menu.',
+    name: 'Anti-cheat status + support',
+    text: 'Live clear-to-load or Updating status is reviewed after anti-cheat and Overwatch patches before you open the menu.',
   },
 ] as const
 

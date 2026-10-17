@@ -1,5 +1,5 @@
-﻿# Cloudflare Workers + static assets — required so CI `npx wrangler deploy` succeeds.
-# (Dashboard is locked to that command; `wrangler pages deploy` is not used.)
+﻿# Cloudflare Workers + static assets — overwatchhack.net (apex + www).
+# Worker `name` may still be legacy in Cloudflare UI; custom domains below are canonical.
 name = "dayzqrh"
 main = "workers/site.js"
 compatibility_date = "2026-09-12"

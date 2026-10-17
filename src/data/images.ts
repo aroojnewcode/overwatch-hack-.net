@@ -28,11 +28,11 @@ export const IMAGE_SEO: Record<
   }
 > = {
   overwatch: {
-    alt: 'Overwatch 2 cheat gameplay with cyan enemy ESP silhouettes visible through walls',
+    alt: 'Overwatch cheat gameplay with cyan enemy ESP silhouettes visible through walls',
     title: 'Overwatch hack ESP product screenshot',
     caption: 'Product artwork showing teal wallhack ESP through interior walls on a payload map.',
     heroAlt:
-      'Overwatch 2 buy card — first-person Orisa gameplay with cyan enemy ESP outlines through walls on Circuit Royal payload',
+      'Overwatch buy card — first-person Orisa gameplay with cyan enemy ESP outlines through walls on Circuit Royal payload',
     heroTitle: 'Buy Overwatch Hack — cyan ESP wallhack screenshot',
     heroCaption: 'Checkout card art with teal enemy silhouettes visible through solid cover.',
   },
@@ -48,35 +48,35 @@ export const PAGE_IMAGES: Record<
   home: {
     src: OVERWATCH_SHOT_WALLHACK,
     og: PAGE_OG.home,
-    alt: 'Overwatch 2 wallhack screenshot with yellow enemy silhouette visible through an interior wall',
+    alt: 'Overwatch wallhack screenshot with yellow enemy silhouette visible through an interior wall',
     title: 'Overwatch wallhack through walls',
     caption: 'Wallhack ESP showing an enemy hero outline through solid cover.',
   },
   forums: {
     src: OVERWATCH_SHOT_ESP_STREET,
     og: PAGE_OG.forums,
-    alt: 'Overwatch 2 ESP screenshot with cyan enemy silhouettes and distance markers through doorways',
+    alt: 'Overwatch ESP screenshot with cyan enemy silhouettes and distance markers through doorways',
     title: 'Overwatch ESP silhouettes',
     caption: 'Player ESP with colored outlines and distance tags through the map.',
   },
   reviews: {
     src: OVERWATCH_SHOT_ESP_AIMBOT,
     og: PAGE_OG.reviews,
-    alt: 'Overwatch 2 aimbot screenshot with FOV ring and enemy target markers on Mercy gameplay',
+    alt: 'Overwatch aimbot screenshot with FOV ring and enemy target markers on Mercy gameplay',
     title: 'Overwatch aimbot FOV overlay',
     caption: 'Aim assist FOV ring and target highlights during a night map push.',
   },
   faq: {
     src: OVERWATCH_MENU,
     og: PAGE_OG.faq,
-    alt: 'Overwatch 2 ESP screenshot with cyan enemy silhouettes and distance markers through doorways',
+    alt: 'Overwatch ESP screenshot with cyan enemy silhouettes and distance markers through doorways',
     title: 'Overwatch ESP silhouettes',
     caption: 'Player ESP with colored outlines and distance tags through the map.',
   },
   support: {
     src: OVERWATCH_HERO,
     og: PAGE_OG.support,
-    alt: 'Overwatch 2 wallhack screenshot with yellow enemy silhouette visible through an interior wall',
+    alt: 'Overwatch wallhack screenshot with yellow enemy silhouette visible through an interior wall',
     title: 'Overwatch wallhack through walls',
     caption: 'Wallhack ESP showing an enemy hero outline through solid cover.',
   },
@@ -84,7 +84,7 @@ export const PAGE_IMAGES: Record<
     src: OVERWATCH_PRODUCT_COVER,
     og: PAGE_OG.product,
     alt:
-      'Overwatch 2 product screenshot — cyan ESP wallhack with enemy silhouettes through walls during payload defense',
+      'Overwatch product screenshot — cyan ESP wallhack with enemy silhouettes through walls during payload defense',
     title: 'Overwatch Hack buy card — cyan ESP gameplay',
     caption: 'Product image with teal enemy outlines visible through cover on a payload map.',
   },

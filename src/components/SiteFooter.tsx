@@ -4,7 +4,7 @@ import {
   SITE_GUIDE_LINKS,
   SITE_PAGE_LINKS,
 } from '../data/links'
-import { SITE_NAME } from '../data/site'
+import { SITE_DOMAIN, SITE_NAME, SITE_URL } from '../data/site'
 
 type SiteFooterProps = {
   currentPath?: string
@@ -41,7 +41,7 @@ export function SiteFooter({ currentPath }: SiteFooterProps) {
             </div>
             <p className="mt-3 text-sm leading-relaxed text-white/55">
               Overwatch hack for PC — silent aim Aimbot, player ESP, wallhack, radar and live anti-cheat status
-              for Overwatch 2 players worldwide.
+              for Overwatch players worldwide.
             </p>
           </div>
 
@@ -145,7 +145,7 @@ export function SiteFooter({ currentPath }: SiteFooterProps) {
         </div>
 
         <p className="mt-10 border-t border-z-soft/10 pt-6 text-xs text-white/55">
-          © {new Date().getFullYear()} {SITE_NAME}. Not affiliated with Blizzard or Overwatch 2.
+          © {new Date().getFullYear()} {SITE_NAME}. Not affiliated with Blizzard or Overwatch.
           Indexed pages are listed in{' '}
           <a
             href="/sitemap.xml"

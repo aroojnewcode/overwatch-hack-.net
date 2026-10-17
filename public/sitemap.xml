@@ -5,7 +5,7 @@
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://overwatchhack.net/</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://overwatchhack.net/" />
@@ -38,7 +38,7 @@
   </url>
   <url>
     <loc>https://overwatchhack.net/overwatch-hack</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://overwatchhack.net/overwatch-hack" />
@@ -55,18 +55,18 @@
     </image:image>
     <image:image>
       <image:loc>https://overwatchhack.net/media/overwatch-wallhack-players.png</image:loc>
-      <image:title>Overwatch 2 Cheats Product Hero</image:title>
-      <image:caption>Hero artwork for Overwatch 2 Aimbot, ESP and radar hack product details.</image:caption>
+      <image:title>Overwatch Cheats Product Hero</image:title>
+      <image:caption>Hero artwork for Overwatch Aimbot, ESP and radar hack product details.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://overwatchhack.net/media/overwatch-esp-street.png</image:loc>
-      <image:title>Overwatch 2 Cheats Menu Preview</image:title>
-      <image:caption>Menu and Aimbot settings preview for Overwatch 2 cheats.</image:caption>
+      <image:title>Overwatch Cheats Menu Preview</image:title>
+      <image:caption>Menu and Aimbot settings preview for Overwatch cheats.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://overwatchhack.net/media/overwatch-esp-street.png</image:loc>
-      <image:title>Overwatch 2 ESP Gameplay</image:title>
-      <image:caption>Player ESP and wallhack preview for Overwatch 2.</image:caption>
+      <image:title>Overwatch ESP Gameplay</image:title>
+      <image:caption>Player ESP and wallhack preview for Overwatch.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://overwatchhack.net/media/overwatch-product-poster.jpg</image:loc>
@@ -83,8 +83,26 @@
     </video:video>
   </url>
   <url>
+    <loc>https://overwatchhack.net/blog</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://overwatchhack.net/blog" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://overwatchhack.net/blog" />
+    <image:image>
+      <image:loc>https://overwatchhack.net/og/forums.jpg</image:loc>
+      <image:title>Overwatch Hack Blogs Open Graph</image:title>
+      <image:caption>Overwatch Hack blogs and setup guides on overwatchhack.net.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://overwatchhack.net/media/overwatch-esp-street.png</image:loc>
+      <image:title>Overwatch Hack Blog Artwork</image:title>
+      <image:caption>Overwatch cheat setup and feature blogs on overwatchhack.net.</image:caption>
+    </image:image>
+  </url>
+  <url>
     <loc>https://overwatchhack.net/forums</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://overwatchhack.net/forums" />
@@ -182,7 +200,7 @@
     <image:image>
       <image:loc>https://overwatchhack.net/og/forums-esp-wallhack-guide.jpg</image:loc>
       <image:title>Overwatch ESP and Wallhack Setup Open Graph</image:title>
-      <image:caption>Overwatch ESP and wallhack setup: player boxes, skeletons, distance, health, ultimate and ability ESP through cover. Clean HUD defaults for Overwatch hack on PC.</image:caption>
+      <image:caption>Overwatch ESP and wallhack setup: player boxes, silhouettes, distance, health, ultimate and ability ESP through cover. Clean HUD defaults for Overwatch hack on PC.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://overwatchhack.net/media/overwatch-esp-street.png</image:loc>
@@ -336,7 +354,7 @@
   </url>
   <url>
     <loc>https://overwatchhack.net/reviews</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://overwatchhack.net/reviews" />
@@ -349,7 +367,7 @@
   </url>
   <url>
     <loc>https://overwatchhack.net/faq</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://overwatchhack.net/faq" />
@@ -362,7 +380,7 @@
   </url>
   <url>
     <loc>https://overwatchhack.net/support</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://overwatchhack.net/support" />
@@ -375,7 +393,7 @@
   </url>
   <url>
     <loc>https://overwatchhack.net/privacy</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://overwatchhack.net/privacy" />
@@ -388,7 +406,7 @@
   </url>
   <url>
     <loc>https://overwatchhack.net/refunds</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.45</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://overwatchhack.net/refunds" />
@@ -401,7 +419,7 @@
   </url>
   <url>
     <loc>https://overwatchhack.net/terms</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://overwatchhack.net/terms" />

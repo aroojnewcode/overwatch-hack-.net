@@ -41,7 +41,7 @@ export function siteIdentityGraph() {
       '@type': 'Organization',
       '@id': `${SITE_URL}/#organization`,
       name: SITE_NAME,
-      alternateName: ['Overwatch Hacks', 'Overwatch 2 Hack', 'overwatchhack.net', 'Overwatch Aimbot ESP'],
+      alternateName: ['Overwatch Hacks', 'Overwatch Hack', 'overwatchhack.net', 'Overwatch Aimbot ESP'],
       url: SITE_URL,
       description: SITE_PURPOSE,
       knowsAbout: [...SITE_ABOUT],
@@ -66,7 +66,7 @@ export function siteIdentityGraph() {
         '@type': 'Thing',
         name: 'Overwatch hack',
         description:
-          'Commercial Overwatch 2 hack for PC — silent aim Aimbot, player ESP, wallhack, radar and anti-cheat status.',
+          'Commercial Overwatch hack for PC — silent aim Aimbot, player ESP, wallhack, radar and anti-cheat status.',
       },
       publisher: { '@id': `${SITE_URL}/#organization` },
     },
@@ -86,7 +86,8 @@ export function webPageNode(seo: PageSeo) {
     inLanguage: 'en',
   } as Record<string, unknown>
   const hasVisibleImage =
-    ['/', PRODUCT_PATH, '/forums'].includes(seo.path) || seo.path.startsWith('/forums/')
+    ['/', PRODUCT_PATH, '/forums', '/blog'].includes(seo.path) ||
+    seo.path.startsWith('/forums/')
   const hasOgImage = Boolean(seo.image)
   if (hasVisibleImage || hasOgImage) {
     page.primaryImageOfPage = {
@@ -108,7 +109,7 @@ export function productCoreJsonLd() {
     name: 'Overwatch Hack',
     alternateName: [
       'Overwatch Hacks',
-      'Overwatch 2 Hack',
+      'Overwatch Hack',
       'Overwatch Aimbot',
       'Overwatch ESP',
       'Overwatch Wallhack',
@@ -128,8 +129,8 @@ export function productCoreJsonLd() {
     offers: baseOffer(`${SITE_URL}${PRODUCT_PATH}`, 'https://schema.org/InStock'),
     subjectOf: {
       '@type': 'VideoObject',
-      name: 'Overwatch feature preview with player ESP through a window',
-      description: 'Short Overwatch 2 preview with player ESP boxes and names through a window.',
+      name: 'Overwatch Hack feature preview — ESP and aim assist gameplay',
+      description: 'Short Overwatch preview with hero ESP outlines, wallhack and objective gameplay on overwatchhack.net.',
       thumbnailUrl: absoluteAsset('/media/overwatch-product-poster.jpg'),
       contentUrl: absoluteAsset('/videos/overwatch-product-loop.mp4'),
       uploadDate: '2026-09-16',
@@ -147,8 +148,8 @@ export function productDetailJsonLd(status: GameStatus) {
     image: absoluteAsset(PAGE_MEDIA.product.image),
     about: {
       '@type': 'VideoGame',
-      name: 'Overwatch 2',
-      alternateName: ['Overwatch 2', 'OW2'],
+      name: 'Overwatch',
+      alternateName: ['Overwatch', 'OW'],
       publisher: { '@type': 'Organization', name: 'Blizzard' },
       gamePlatform: 'PC',
     },

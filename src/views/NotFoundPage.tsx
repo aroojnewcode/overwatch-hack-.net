@@ -1,7 +1,7 @@
 import { Navbar } from '../components/Navbar'
 import { SiteFooter } from '../components/SiteFooter'
 import { HeroSearch } from '../components/HeroSearch'
-import { CheckoutLink } from '../components/CheckoutLink'
+import { ProductCTALink } from '../components/ProductCTALink'
 
 export function NotFoundPage() {
   return (
@@ -46,9 +46,9 @@ export function NotFoundPage() {
               >
                 Forums
               </a>
-              <CheckoutLink className="cta-gradient inline-flex items-center justify-center rounded-full px-6 py-3 text-sm font-medium text-white">
+              <ProductCTALink className="cta-gradient inline-flex items-center justify-center rounded-full px-6 py-3 text-sm font-medium text-white">
                 Get
-              </CheckoutLink>
+              </ProductCTALink>
             </div>
           </div>
         </section>

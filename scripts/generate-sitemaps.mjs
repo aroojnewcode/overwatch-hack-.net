@@ -67,6 +67,7 @@ const PAGE_META = {
   '/': { priority: '1.0', changefreq: 'daily' },
   '/overwatch-hack': { priority: '0.9', changefreq: 'weekly' },
   '/forums': { priority: '0.85', changefreq: 'weekly' },
+  '/blog': { priority: '0.85', changefreq: 'weekly' },
   '/reviews': { priority: '0.8', changefreq: 'weekly' },
   '/faq': { priority: '0.75', changefreq: 'monthly' },
   '/support': { priority: '0.75', changefreq: 'weekly' },
@@ -235,6 +236,21 @@ function imagesForPath(path, games, forums) {
     ]
   }
 
+  if (path === '/blog') {
+    return [
+      {
+        src: '/og/forums.jpg',
+        title: 'Overwatch Hack Blogs Open Graph',
+        caption: 'Overwatch Hack blogs and setup guides on overwatchhack.net.',
+      },
+      {
+        src: MENU,
+        title: 'Overwatch Hack Blog Artwork',
+        caption: 'Overwatch cheat setup and feature blogs on overwatchhack.net.',
+      },
+    ]
+  }
+
   if (path === '/forums') {
     return [
       {
@@ -362,7 +378,7 @@ function buildSitemap(games, forums, allPaths) {
     const rank = (path) => {
       if (path === '/') return 0
       if (path.endsWith('-hack')) return 1
-      if (path === '/forums') return 2
+      if (path === '/forums' || path === '/blog') return 2
       if (path.startsWith('/forums/')) return 3
       if (path === '/reviews') return 4
       if (path === '/faq') return 5

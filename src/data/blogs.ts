@@ -40,7 +40,7 @@ export const BLOGS: BlogPost[] = [
         heading: 'Use this checklist before checkout',
         body: [
           'Searching “overwatch hack” or “overwatch cheat” usually means one question: what is actually included? This guide is the module checklist — not the price page. Open Product details for live anti-cheat status and checkout from $35.',
-          'Overwatch Hack on overwatchhack.net is a single Overwatch 2 product for Windows PC: one loader, one license, clear-to-load or Updating against Blizzard anti-cheat. Quick Play, Competitive and Arcade are supported when the build allows it.',
+          'Overwatch Hack on overwatchhack.net is a single Overwatch product for Windows PC: one loader, one license, clear-to-load or Updating against Blizzard anti-cheat. Quick Play, Competitive and Arcade are supported when the build allows it.',
         ],
       },
       {
@@ -108,7 +108,7 @@ export const BLOGS: BlogPost[] = [
         heading: 'Visible-check and hitbox',
         body: [
           'Enable visibility checks so Aimbot does not lock through solid cover — easy for admins and squad mates to spot.',
-          'Chest or body hitboxes are safer than permanent head lock. Body shots are usually enough in Overwatch 2.',
+          'Chest or body hitboxes are safer than permanent head lock. Body shots are usually enough in Overwatch.',
         ],
       },
       {
@@ -127,7 +127,7 @@ export const BLOGS: BlogPost[] = [
       'Configure Overwatch ESP and wallhack for player boxes, utility tracking and utility highlighting without flooding your HUD.',
     metaTitle: 'Overwatch ESP Wallhack Setup | Player Boxes & Utility ESP',
     metaDescription:
-      'Overwatch ESP and wallhack setup: player boxes, skeletons, distance, health, ultimate and ability ESP through cover. Clean HUD defaults for Overwatch hack on PC.',
+      'Overwatch ESP and wallhack setup: player boxes, silhouettes, distance, health, ultimate and ability ESP through cover. Clean HUD defaults for Overwatch hack on PC.',
     searchTerms: 'overwatch esp wallhack overwatch hack player boxes utility esp objective esp overwatch cheat',
     date: '2026-09-17',
     readMinutes: 9,
@@ -144,7 +144,7 @@ export const BLOGS: BlogPost[] = [
       {
         heading: 'Player and utility ESP',
         body: [
-          'Enable boxes or skeletons, distance and health. Colour-code enemies clearly and keep teammates readable if the build supports it.',
+          'Enable boxes or silhouettes, distance and health. Colour-code enemies clearly and keep teammates readable if the build supports it.',
           'Ultimate and ability ESP helps on retakes — know where utility landed and whether the payload or point is contested before you commit through cover.',
           'Limit max distance so the HUD is not flooded with far contacts you cannot fight this second.',
         ],
@@ -159,7 +159,7 @@ export const BLOGS: BlogPost[] = [
       {
         heading: 'Stream and report risk',
         body: [
-          'Use stream-proof if you clip or go live. Short ranges and clean colours look far less suspicious than neon skeletons across the whole map.',
+          'Use stream-proof if you clip or go live. Short ranges and clean colours look far less suspicious than neon ESP across the whole map.',
         ],
       },
     ],
@@ -179,7 +179,7 @@ export const BLOGS: BlogPost[] = [
     howTo: true,
     sections: [
       {
-        heading: 'Why radar matters in Overwatch 2',
+        heading: 'Why radar matters in Overwatch',
         body: [
           'Most Overwatch deaths are information gaps — the hitscan holding an off-angle, the duo already stacked on point, the flanker rotating mid while you commit. A radar hack closes that gap without forcing Aimbot.',
           'Buyers searching “overwatch radar hack” want macro awareness for rotates between objectives, mid and spawn.',
@@ -217,7 +217,7 @@ export const BLOGS: BlogPost[] = [
       {
         heading: 'After a clean load',
         body: [
-          'Buy Overwatch Hack on overwatchhack.net (from $35), confirm live anti-cheat status, launch Overwatch 2, run the loader, then open the menu with the key in your delivery notes.',
+          'Buy Overwatch Hack on overwatchhack.net (from $35), confirm live anti-cheat status, launch Overwatch, run the loader, then open the menu with the key in your delivery notes.',
           'If the menu does not open, do not spam keys — contact support with your order ID.',
         ],
       },
@@ -266,7 +266,7 @@ export const BLOGS: BlogPost[] = [
       {
         heading: '3) Load order',
         body: [
-          'Start Overwatch 2 from the Battle.net app and reach the main menu.',
+          'Start Overwatch from the Battle.net app and reach the main menu.',
           'Run the Overwatch Hack loader as delivered.',
           'Wait for a successful load, open the menu, enable player ESP, ultimate and ability ESP and radar, then Aimbot only if you want it.',
         ],
@@ -297,7 +297,7 @@ export const BLOGS: BlogPost[] = [
       {
         heading: 'Supported systems',
         body: [
-          'Overwatch Hack targets Overwatch 2 on Windows 10 and Windows 11 (Intel and AMD). Keep Windows stable enough that the Battle.net client launches Overwatch cleanly, then freeze major changes mid-session.',
+          'Overwatch Hack targets Overwatch on Windows 10 and Windows 11 (Intel and AMD). Keep Windows stable enough that the Battle.net client launches Overwatch cleanly, then freeze major changes mid-session.',
         ],
       },
       {
@@ -310,7 +310,7 @@ export const BLOGS: BlogPost[] = [
         heading: 'Permissions and launcher',
         body: [
           'Run the delivered loader with the permissions in your order email. Do not move files out of the excluded folder after setup.',
-          'Use the official Battle.net Overwatch 2 client only — unofficial clients are unsupported.',
+          'Use the official Battle.net Overwatch client only — unofficial clients are unsupported.',
         ],
       },
     ],
@@ -332,7 +332,7 @@ export const BLOGS: BlogPost[] = [
       {
         heading: 'Why loaders get flagged',
         body: [
-          'Cheat loaders often trip generic heuristics even from a legitimate overwatchhack.net purchase. Exclusion comes before you spam launch into Overwatch 2.',
+          'Cheat loaders often trip generic heuristics even from a legitimate overwatchhack.net purchase. Exclusion comes before you spam launch into Overwatch.',
         ],
       },
       {

@@ -1,3 +1,5 @@
+import { getBlogCoverForSlug } from './blogCovers'
+
 export type SeoMediaItem = {
   image: string
   video?: string
@@ -15,7 +17,8 @@ export const OVERWATCH_SHOT_RADAR = '/media/overwatch-radar-esp.png'
 export const OVERWATCH_SHOT_ESP_AIMBOT = '/media/overwatch-esp-aimbot.png'
 export const OVERWATCH_PRODUCT_COVER = '/media/overwatch-product-cover.png'
 
-export const OVERWATCH_HERO = OVERWATCH_SHOT_WALLHACK
+export const OVERWATCH_HERO_POSTER = '/media/overwatch-hero-poster.jpg'
+export const OVERWATCH_HERO = OVERWATCH_HERO_POSTER
 export const OVERWATCH_SOLDIER = OVERWATCH_SHOT_WALLHACK
 export const OVERWATCH_COVER = OVERWATCH_PRODUCT_COVER
 export const OVERWATCH_BOX = OVERWATCH_SHOT_ESP_AIMBOT
@@ -33,33 +36,33 @@ export const OVERWATCH_HOME_VIDEO = {
   poster: '/media/overwatch-product-poster.jpg',
   title: 'Overwatch feature preview — ESP and aim assist gameplay',
   caption:
-    "Overwatch 2 feature preview — ESP, wallhack boxes and hero tracking through cover (middle gameplay loop).",
+    "Overwatch feature preview — ESP, wallhack boxes and hero tracking through cover (middle gameplay loop).",
 } as const
 
 const SHOT_WALLHACK: SeoMediaItem = {
   image: OVERWATCH_SHOT_WALLHACK,
-  alt: 'Overwatch 2 wallhack screenshot with yellow enemy silhouette visible through an interior wall',
+  alt: 'Overwatch wallhack screenshot with yellow enemy silhouette visible through an interior wall',
   title: 'Overwatch wallhack through walls',
   caption: 'Wallhack ESP showing an enemy hero outline through solid cover.',
 }
 
 const SHOT_ESP_STREET: SeoMediaItem = {
   image: OVERWATCH_SHOT_ESP_STREET,
-  alt: 'Overwatch 2 ESP screenshot with cyan enemy silhouettes and distance markers through doorways',
+  alt: 'Overwatch ESP screenshot with cyan enemy silhouettes and distance markers through doorways',
   title: 'Overwatch ESP silhouettes',
   caption: 'Player ESP with colored outlines and distance tags through the map.',
 }
 
 const SHOT_RADAR: SeoMediaItem = {
   image: OVERWATCH_SHOT_RADAR,
-  alt: 'Overwatch 2 ESP screenshot with cyan enemy outlines and DEFEND markers through interior walls',
+  alt: 'Overwatch ESP screenshot with cyan enemy outlines and DEFEND markers through interior walls',
   title: 'Overwatch ESP and objective markers',
   caption: 'ESP overlays with enemy positions and objective tags through cover.',
 }
 
 const SHOT_ESP_AIMBOT: SeoMediaItem = {
   image: OVERWATCH_SHOT_ESP_AIMBOT,
-  alt: 'Overwatch 2 aimbot screenshot with FOV ring and enemy target markers on Mercy gameplay',
+  alt: 'Overwatch aimbot screenshot with FOV ring and enemy target markers on Mercy gameplay',
   title: 'Overwatch aimbot FOV overlay',
   caption: 'Aim assist FOV ring and target highlights during a night map push.',
 }
@@ -95,5 +98,6 @@ const FORUM_MEDIA: Record<string, SeoMediaItem> = {
 }
 
 export function getForumMedia(slug: string): SeoMediaItem {
-  return FORUM_MEDIA[slug] || PAGE_MEDIA.forums
+  const base = FORUM_MEDIA[slug] || PAGE_MEDIA.forums
+  return { ...base, image: getBlogCoverForSlug(slug) }
 }

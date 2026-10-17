@@ -2,9 +2,11 @@ import { ArrowLeft, ArrowRight } from 'lucide-react'
 import { Navbar } from '../components/Navbar'
 import { SiteFooter } from '../components/SiteFooter'
 import { BLOGS, blogPath, getBlog } from '../data/blogs'
+import { getBlogCoverForSlug } from '../data/blogCovers'
 import { CheckoutLink } from '../components/CheckoutLink'
 import { SITE_HOST } from '../data/site'
 import { NotFoundPage } from './NotFoundPage'
+import { ForumReplyList } from '../components/ForumReplyList'
 
 type BlogPostPageProps = {
   slug: string
@@ -42,8 +44,8 @@ export function BlogPostPage({ slug }: BlogPostPageProps) {
                 Home
               </a>
               <span>/</span>
-              <a href="/forums" className="hover:text-white/70">
-                Forums
+              <a href="/blog" className="hover:text-white/70">
+                Blog
               </a>
               <span>/</span>
               <span className="text-white/70">{post.tag}</span>
@@ -58,6 +60,18 @@ export function BlogPostPage({ slug }: BlogPostPageProps) {
             <p className="mt-4 text-base leading-relaxed text-white/60 sm:text-lg">
               {post.excerpt}
             </p>
+
+            <div className="mt-8 overflow-hidden rounded-2xl border border-white/10 sm:rounded-3xl">
+              <img
+                src={getBlogCoverForSlug(post.slug)}
+                alt={post.title}
+                width={1280}
+                height={720}
+                loading="eager"
+                decoding="async"
+                className="aspect-video w-full object-cover"
+              />
+            </div>
 
             <div className="mt-10 space-y-10">
               {post.sections.map((section) => (
@@ -74,13 +88,15 @@ export function BlogPostPage({ slug }: BlogPostPageProps) {
               ))}
             </div>
 
+            <ForumReplyList slug={post.slug} className="mt-12 border-t border-white/10 pt-10" />
+
             <div className="page-card mt-12 rounded-2xl p-6 sm:p-8">
               <h2 className="text-lg font-semibold text-white">
                 Ready for Overwatch Hack?
               </h2>
               <p className="mt-2 text-sm leading-relaxed text-white/55">
                 Check live anti-cheat status, then buy ESP, wallhack, radar hack and silent aim for
-                Overwatch 2 on {SITE_HOST}. Need help? Read{' '}
+                Overwatch on {SITE_HOST}. Need help? Read{' '}
                 <a href="/support" className="text-white/80 underline-offset-2 hover:underline">
                   Overwatch Hack support
                 </a>
@@ -133,8 +149,18 @@ export function BlogPostPage({ slug }: BlogPostPageProps) {
                   <a
                     key={b.slug}
                     href={blogPath(b.slug)}
-                    className="page-card group flex h-full flex-col rounded-2xl p-5"
+                    className="page-card group flex h-full flex-col overflow-hidden rounded-2xl p-0"
                   >
+                    <img
+                      src={getBlogCoverForSlug(b.slug)}
+                      alt=""
+                      width={640}
+                      height={360}
+                      loading="lazy"
+                      decoding="async"
+                      className="aspect-video w-full object-cover"
+                    />
+                    <div className="flex flex-1 flex-col p-5">
                     <p className="text-xs uppercase tracking-wider text-white/40">{b.tag}</p>
                     <h3 className="mt-2 text-sm font-semibold text-white group-hover:text-white/85">
                       {b.title}
@@ -146,6 +172,7 @@ export function BlogPostPage({ slug }: BlogPostPageProps) {
                       Read
                       <ArrowRight className="h-3.5 w-3.5" strokeWidth={1.75} />
                     </span>
+                    </div>
                   </a>
                 ))}
               </div>

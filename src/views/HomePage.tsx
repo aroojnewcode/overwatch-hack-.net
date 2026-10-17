@@ -2,41 +2,21 @@ import { ArrowRight, Crosshair, Eye, Radar, Sparkles } from 'lucide-react'
 import { Navbar } from '../components/Navbar'
 import { VideoBg } from '../components/VideoBg'
 import { SiteFooter } from '../components/SiteFooter'
-import { HeroSearch } from '../components/HeroSearch'
+import { BlogArchive } from '../components/BlogArchive'
 import { FaqSection } from '../components/FaqSection'
 import { guidePath } from '../data/games'
 import { CheckoutLink } from '../components/CheckoutLink'
-import { FeaturePreviewVideo } from '../components/FeaturePreviewVideo'
+import { FeaturePreviewShowcase } from '../components/FeaturePreviewShowcase'
+import { ProductModuleSection } from '../components/ProductModuleSection'
+import { AIMBOT_MODULE, WORLD_VISUALS_MODULE } from '../data/productModules'
 import { HOME_FAQS } from '../data/faqs'
-import { HOME_HEADINGS, PRODUCT_PATH, SITE_HOST, SITE_NAME, SITE_PURPOSE } from '../data/site'
-import { BLOGS, blogPath } from '../data/blogs'
 import {
-  OVERWATCH_SHOT_ESP_AIMBOT,
-  OVERWATCH_SHOT_ESP_STREET,
-  OVERWATCH_SHOT_WALLHACK,
-} from '../data/media'
-
-const PREVIEW_SHOTS = [
-  {
-    src: OVERWATCH_SHOT_WALLHACK,
-    alt: 'Overwatch 2 wallhack screenshot with yellow enemy silhouette visible through an interior wall',
-    title: 'Wallhack through cover',
-    detail: 'Enemy outline visible through a wall — classic wallhack ESP.',
-  },
-  {
-    src: OVERWATCH_SHOT_ESP_STREET,
-    alt: 'Overwatch 2 ESP screenshot with cyan enemy silhouettes and distance markers through doorways',
-    title: 'ESP silhouettes & distance',
-    detail: 'Colored player ESP with distance tags through the facility.',
-  },
-  {
-    src: OVERWATCH_SHOT_ESP_AIMBOT,
-    alt: 'Overwatch 2 aimbot screenshot with FOV ring and enemy target markers on Mercy gameplay',
-    title: 'Aimbot FOV overlay',
-    detail: 'FOV ring and target highlights on a night map.',
-  },
-] as const
-
+  HOME_HEADINGS,
+  PRODUCT_PATH,
+  SITE_HOST,
+  SITE_NAME,
+  SITE_PURPOSE,
+} from '../data/site'
 const FEATURES = [
   {
     icon: Crosshair,
@@ -55,7 +35,7 @@ const FEATURES = [
   },
   {
     icon: Sparkles,
-    label: 'anti-cheat status',
+    label: 'Anti-cheat status',
     desc: 'We publish live anti-cheat status after Overwatch patches — clear to load, or wait.',
   },
 ] as const
@@ -66,8 +46,7 @@ export function HomePage() {
       <section id="home" className="relative flex min-h-screen flex-col overflow-x-clip">
         <VideoBg
           image="/media/overwatch-hero-poster.jpg"
-          imageAlt="Overwatch 2 first-person gameplay highlight on the homepage hero"
-          video="/videos/overwatch-hero-loop.mp4"
+          imageAlt="Overwatch heroes Sojourn, Doomfist and Junker Queen on the Overwatch Hack homepage banner"
         />
 
         <div className="relative z-20 flex min-h-screen flex-col">
@@ -83,13 +62,15 @@ export function HomePage() {
                   {HOME_HEADINGS.h1}
                 </h1>
                 <p className="mt-3 max-w-md text-sm leading-relaxed text-white/70 sm:mt-3.5 sm:text-[0.95rem]">
-                  Overwatch 2 cheats for Windows 10 and 11 — silent aim Aimbot, player ESP,
+                  Overwatch cheats for Windows 10 and 11 — silent aim Aimbot, player ESP,
                   wallhack, radar and a clear cheat menu. Live anti-cheat status on Quick Play,
                   Competitive and Arcade.
                 </p>
 
                 <div className="relative z-50 mt-5 flex flex-col gap-2.5 sm:flex-row sm:items-center">
-                  <CheckoutLink className="cta-gradient inline-flex items-center justify-center rounded-full px-6 py-2.5 text-sm font-semibold text-white transition-opacity hover:opacity-90">
+                  <CheckoutLink
+                    className="cta-gradient inline-flex items-center justify-center rounded-full px-6 py-2.5 text-sm font-semibold text-white transition-opacity hover:opacity-90"
+                  >
                     Buy Overwatch Hack
                   </CheckoutLink>
                   <a
@@ -110,7 +91,7 @@ export function HomePage() {
                     UD
                   </p>
                   <p className="mt-2.5 text-xs leading-relaxed text-white/70 sm:mt-3 sm:text-sm">
-                    Live anti-cheat status for Overwatch 2. Updated after patches —
+                    Live anti-cheat status for Overwatch. Updated after patches —
                     not random Discord screenshots.
                   </p>
                 </div>
@@ -120,7 +101,7 @@ export function HomePage() {
                     <div className="flex h-5 w-5 items-center justify-center rounded bg-z-accent/30 text-[10px] font-bold text-z-soft sm:h-6 sm:w-6 sm:text-xs">
                       OW
                     </div>
-                    <span className="text-sm font-semibold text-white">Overwatch 2</span>
+                    <span className="text-sm font-semibold text-white">Overwatch</span>
                   </div>
                   <p className="flex-1 text-xs leading-relaxed text-white/80 sm:text-sm">
                     “Bought it for ESP and mild silent aim. Status stayed honest after the last
@@ -167,92 +148,43 @@ export function HomePage() {
           </div>
         </section>
 
-        <section className="page-x pb-4 pt-16 sm:pt-20" aria-labelledby="feature-preview-heading">
+        <section className="page-x border-t border-z-soft/15 pb-4 pt-14 sm:pt-16">
           <div className="mx-auto max-w-6xl">
-            <h2 id="feature-preview-heading" className="sr-only">
-              Overwatch feature preview
-            </h2>
-            <FeaturePreviewVideo variant="inline" interactive />
-            <p className="mt-5 max-w-4xl text-sm leading-relaxed text-white/80 sm:text-base">
-              <span className="font-semibold text-white">Overwatch Hack feature preview.</span> Use the
-              player controls to play, pause and scrub the timeline. See player ESP and wallhack overlays
-              in a real match, how hero names and health show through cover, and why live anti-cheat
-              status is checked after every patch.
-            </p>
-            <div className="mt-8 grid gap-5 sm:grid-cols-3 sm:gap-4">
-              {PREVIEW_SHOTS.map((shot) => (
-                <figure key={shot.src}>
-                  <img
-                    src={shot.src}
-                    alt={shot.alt}
-                    title={shot.title}
-                    width={1280}
-                    height={720}
-                    loading="lazy"
-                    decoding="async"
-                    className="aspect-video w-full rounded-xl object-cover"
-                  />
-                  <figcaption className="mt-3">
-                    <p className="text-sm font-semibold text-white">{shot.title}</p>
-                    <p className="mt-1 text-xs leading-relaxed text-white/60">{shot.detail}</p>
-                  </figcaption>
-                </figure>
-              ))}
-            </div>
+            <FeaturePreviewShowcase layout="split" accessHomeAnchor />
+          </div>
+        </section>
+
+        <section className="page-x border-t border-z-soft/15">
+          <div className="mx-auto max-w-6xl">
+            <ProductModuleSection module={AIMBOT_MODULE} />
+            <ProductModuleSection module={WORLD_VISUALS_MODULE} showIcon />
           </div>
         </section>
 
         <section id="picks" className="page-x py-16 sm:py-20">
           <div className="mx-auto max-w-6xl">
-            <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
-              <div>
-                <p className="text-xs font-medium uppercase tracking-[0.2em] text-white/45">
-                  Forums
-                </p>
-                <h2 className="mt-3 text-3xl font-semibold tracking-tight text-white sm:text-4xl">
-                  Overwatch Hack guides
-                </h2>
-                <p className="mt-3 max-w-xl text-sm leading-relaxed text-white/55 sm:text-base">
-                  Bigger setup library — Aimbot, ESP, radar hack, match settings, anti-cheat status and
-                  loader fixes before you buy.
-                </p>
-              </div>
+            <header className="mx-auto max-w-3xl text-center">
+              <p className="text-sm font-semibold tracking-[0.2em] text-z-soft">Blog</p>
+              <h2 className="mt-4 text-3xl font-semibold tracking-tight text-white sm:text-4xl">
+                Overwatch Hack Blogs
+              </h2>
+              <p className="mt-4 text-sm leading-relaxed text-white/50 sm:text-base">
+                Latest from {SITE_NAME} on {SITE_HOST} — setup guides and feature deep-dives for Overwatch.
+              </p>
+            </header>
+
+            <div className="mt-10">
+              <BlogArchive limit={3} showFilters={false} />
+            </div>
+
+            <div className="mt-10 text-center">
               <a
-                href="/forums"
+                href="/blog"
                 className="inline-flex items-center gap-1.5 text-sm font-medium text-white/80 hover:text-white"
               >
-                All forums
+                View all blogs
                 <ArrowRight className="h-4 w-4" strokeWidth={1.75} />
               </a>
-            </div>
-
-            <div className="relative z-20 mt-8 max-w-xl">
-              <HeroSearch placeholder="Search Overwatch hack guides…" />
-            </div>
-
-            <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-              {BLOGS.slice(0, 6).map((post) => (
-                <a
-                  key={post.slug}
-                  href={blogPath(post.slug)}
-                  className="page-card group flex h-full flex-col rounded-2xl p-5 sm:p-6"
-                >
-                  <p className="text-xs uppercase tracking-wider text-white/45">{post.tag}</p>
-                  <p className="mt-2 text-lg font-semibold tracking-tight text-white">
-                    {post.title}
-                  </p>
-                  <p className="mt-2 flex-1 text-sm leading-relaxed text-white/55">
-                    {post.excerpt}
-                  </p>
-                  <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-white transition-colors group-hover:text-white/80">
-                    Read guide
-                    <ArrowRight
-                      className="h-4 w-4 transition-transform group-hover:translate-x-0.5"
-                      strokeWidth={1.75}
-                    />
-                  </span>
-                </a>
-              ))}
             </div>
 
             <div className="page-card mt-8 flex flex-col gap-4 rounded-2xl p-6 sm:flex-row sm:items-center sm:justify-between sm:p-8">
@@ -313,7 +245,7 @@ export function HomePage() {
 
             <div
               id="access"
-              className="page-card flex h-full min-h-[240px] flex-col justify-between rounded-2xl p-6 sm:rounded-3xl sm:p-8 lg:p-10"
+              className="scroll-mt-24 page-card flex h-full min-h-[240px] flex-col justify-between rounded-2xl p-6 sm:rounded-3xl sm:p-8 lg:p-10"
             >
               <div>
                 <p className="text-xs font-medium uppercase tracking-[0.2em] text-white/45">
@@ -327,8 +259,10 @@ export function HomePage() {
                   on supported Windows builds — worldwide.
                 </p>
               </div>
-              <CheckoutLink className="cta-gradient mt-8 inline-flex w-full items-center justify-center rounded-full px-6 py-3.5 text-sm font-medium text-white transition-opacity hover:opacity-90 sm:w-fit">
-                Get Overwatch Hack license
+              <CheckoutLink
+                className="cta-gradient mt-8 inline-flex w-full items-center justify-center rounded-full px-6 py-3.5 text-sm font-medium text-white transition-opacity hover:opacity-90 sm:w-fit"
+              >
+                Get Overwatch Hack
               </CheckoutLink>
             </div>
           </div>

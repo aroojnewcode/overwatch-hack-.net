@@ -16,21 +16,21 @@ import { FaqSection } from '../components/FaqSection'
 import { CheckoutLink } from '../components/CheckoutLink'
 import { NotFoundPage } from './NotFoundPage'
 import { blogPath } from '../data/blogs'
-import { OVERWATCH_HOME_VIDEO } from '../data/media'
-import { OverwatchProductPreview } from '../components/OverwatchProductPreview'
+import { FeaturePreviewShowcase } from '../components/FeaturePreviewShowcase'
 
 function ProductPurchaseCard({ game }: { game: Game }) {
   return (
-    <div className="overflow-hidden rounded-2xl border border-z-soft/15 bg-[rgba(20,16,31,0.95)] sm:rounded-3xl">
-      <CheckoutLink className="block" aria-label="Buy Overwatch Hack">
-        <GameCover
-          slug={game.slug}
-          name={game.name}
-          aspect="square"
-          variant="product"
-          className="rounded-none"
-        />
-      </CheckoutLink>
+    <div
+      id="checkout"
+      className="scroll-mt-24 overflow-hidden rounded-2xl border border-z-soft/15 bg-[rgba(20,16,31,0.95)] sm:rounded-3xl"
+    >
+      <GameCover
+        slug={game.slug}
+        name={game.name}
+        aspect="square"
+        variant="product"
+        className="rounded-none"
+      />
       <div className="p-5 sm:p-6">
         <div className="flex items-center gap-3">
           <div className="icon-well shrink-0 text-sm font-bold">OW</div>
@@ -99,34 +99,18 @@ export function GameProductPage({ guideSlug }: GameProductPageProps) {
               <span className="min-w-0 text-white/70">Product details</span>
             </nav>
 
-            <div className="mt-6 sm:mt-8">
-              <h2 className="text-lg font-semibold tracking-tight text-white sm:text-xl">
-                Feature preview
-              </h2>
-              <p className="mt-2 max-w-2xl text-sm text-white/45">
-                {OVERWATCH_HOME_VIDEO.caption} Use play/pause and the timeline to scrub through the
-                clip.
-              </p>
-              <OverwatchProductPreview
-                className="mt-4"
-                wide
-                interactive
-                priority
-              />
-            </div>
-
-            <div className="mt-10 grid gap-8 lg:mt-12 lg:grid-cols-12 lg:items-start lg:gap-10">
+            <div className="mt-6 sm:mt-8 grid gap-8 lg:mt-12 lg:grid-cols-12 lg:items-start lg:gap-10">
               <div className="lg:col-span-7">
                 <span className="inline-flex items-center gap-1.5 text-xs text-z-soft">
                   <Shield className="h-3.5 w-3.5 shrink-0" strokeWidth={1.75} />
-                  {game.status} · Overwatch 2 · anti-cheat · {SITE_HOST}
+                  {game.status} · Overwatch · anti-cheat · {SITE_HOST}
                 </span>
 
                 <h1 className="mt-3 text-2xl font-semibold leading-tight tracking-tight text-white sm:text-4xl lg:text-[2.75rem] lg:leading-[1.1]">
                   Overwatch Hack Price & Checkout
                 </h1>
                 <p className="mt-3 max-w-xl text-sm leading-relaxed text-white/55 sm:mt-4 sm:text-base">
-                  Silent aim Aimbot, player ESP, wallhack and radar for Overwatch 2 on PC.
+                  Silent aim Aimbot, player ESP, wallhack and radar for Overwatch on PC.
                   Confirm anti-cheat status, then checkout — worldwide delivery.
                 </p>
 
@@ -159,7 +143,7 @@ export function GameProductPage({ guideSlug }: GameProductPageProps) {
                       Competitive & anti-cheat
                     </h2>
                     <p className="mt-3">
-                      Built for Quick Play, Competitive and Arcade on Overwatch 2.
+                      Built for Quick Play, Competitive and Arcade on Overwatch.
                       After a client or anti-cheat patch, status may show Updating until tested —{' '}
                       {SITE_NAME} publishes live status so you are not buying a dead loader. Status
                       first, load second.
@@ -195,6 +179,10 @@ export function GameProductPage({ guideSlug }: GameProductPageProps) {
                   <ProductPurchaseCard game={game} />
                 </div>
               </aside>
+            </div>
+
+            <div className="mt-12 sm:mt-16 lg:mt-20">
+              <FeaturePreviewShowcase layout="stacked" videoPriority compact />
             </div>
           </div>
         </section>
