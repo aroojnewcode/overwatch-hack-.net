@@ -137,11 +137,23 @@ export function ForumsPage({ initialQuery = '' }: ForumsPageProps) {
               className="cta-gradient inline-flex shrink-0 items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-semibold text-white transition-opacity hover:opacity-90"
             >
               <MessagesSquare className="h-4 w-4" strokeWidth={2} />
-              Explore the guides
-            </a>
-          </div>
+                Explore the guides
+              </a>
+            </div>
 
-          <div className="mt-10 grid gap-10 lg:grid-cols-[minmax(0,1fr)_300px] lg:gap-8 xl:grid-cols-[minmax(0,1fr)_320px]">
+            <figure className="mt-8 overflow-hidden rounded-2xl border border-white/10 bg-black">
+              <img
+                src={OVERWATCH_SHOT_WALLHACK}
+                alt="Overwatch wallhack ESP screenshot — enemy silhouettes through cover on overwatchhack.net"
+                width={1280}
+                height={720}
+                loading="eager"
+                decoding="async"
+                className="aspect-video w-full object-cover"
+              />
+            </figure>
+
+            <div className="mt-10 grid gap-10 lg:grid-cols-[minmax(0,1fr)_300px] lg:gap-8 xl:grid-cols-[minmax(0,1fr)_320px]">
             <div className="min-w-0">
               <div className="flex flex-col gap-4 border-b border-white/10 pb-5 sm:flex-row sm:items-center sm:justify-between">
                 <div className="flex flex-wrap gap-2">
@@ -297,17 +309,6 @@ export function ForumsPage({ initialQuery = '' }: ForumsPageProps) {
             </div>
 
             <aside className="space-y-6 lg:sticky lg:top-24 lg:self-start">
-              <div className="overflow-hidden rounded-2xl border border-white/10 bg-black">
-                <img
-                  src={OVERWATCH_SHOT_WALLHACK}
-                  alt="Overwatch wallhack ESP screenshot — enemy silhouettes through cover"
-                  width={640}
-                  height={360}
-                  loading="lazy"
-                  decoding="async"
-                  className="aspect-video w-full object-cover"
-                />
-              </div>
               <div className="overflow-hidden rounded-2xl border border-white/10 bg-[rgba(16,12,26,0.95)]">
                 <div className="h-1 bg-z-accent" aria-hidden />
                 <div className="p-5 sm:p-6">
