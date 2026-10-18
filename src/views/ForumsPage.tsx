@@ -22,6 +22,7 @@ import {
   type ForumSortTab,
   type ForumTopic,
 } from '../data/forumDiscussions'
+import { OVERWATCH_SHOT_WALLHACK } from '../data/media'
 import { SITE_NAME } from '../data/site'
 import { ForumReplyList } from '../components/ForumReplyList'
 import { getForumReplies } from '../data/forumReplies'
@@ -296,6 +297,17 @@ export function ForumsPage({ initialQuery = '' }: ForumsPageProps) {
             </div>
 
             <aside className="space-y-6 lg:sticky lg:top-24 lg:self-start">
+              <div className="overflow-hidden rounded-2xl border border-white/10 bg-black">
+                <img
+                  src={OVERWATCH_SHOT_WALLHACK}
+                  alt="Overwatch wallhack ESP screenshot — enemy silhouettes through cover"
+                  width={640}
+                  height={360}
+                  loading="lazy"
+                  decoding="async"
+                  className="aspect-video w-full object-cover"
+                />
+              </div>
               <div className="overflow-hidden rounded-2xl border border-white/10 bg-[rgba(16,12,26,0.95)]">
                 <div className="h-1 bg-z-accent" aria-hidden />
                 <div className="p-5 sm:p-6">

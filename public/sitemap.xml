@@ -5,7 +5,7 @@
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://overwatchhack.net/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://overwatchhack.net/" />
@@ -38,7 +38,7 @@
   </url>
   <url>
     <loc>https://overwatchhack.net/overwatch-hack</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://overwatchhack.net/overwatch-hack" />
@@ -84,7 +84,7 @@
   </url>
   <url>
     <loc>https://overwatchhack.net/blog</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://overwatchhack.net/blog" />
@@ -102,7 +102,7 @@
   </url>
   <url>
     <loc>https://overwatchhack.net/forums</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://overwatchhack.net/forums" />
@@ -354,7 +354,7 @@
   </url>
   <url>
     <loc>https://overwatchhack.net/reviews</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://overwatchhack.net/reviews" />
@@ -367,7 +367,7 @@
   </url>
   <url>
     <loc>https://overwatchhack.net/faq</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://overwatchhack.net/faq" />
@@ -380,7 +380,7 @@
   </url>
   <url>
     <loc>https://overwatchhack.net/support</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://overwatchhack.net/support" />
@@ -393,7 +393,7 @@
   </url>
   <url>
     <loc>https://overwatchhack.net/privacy</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://overwatchhack.net/privacy" />
@@ -406,7 +406,7 @@
   </url>
   <url>
     <loc>https://overwatchhack.net/refunds</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.45</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://overwatchhack.net/refunds" />
@@ -419,7 +419,7 @@
   </url>
   <url>
     <loc>https://overwatchhack.net/terms</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://overwatchhack.net/terms" />
