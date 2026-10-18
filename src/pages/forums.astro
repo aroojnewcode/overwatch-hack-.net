@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro'
 import { ForumsPage } from '../views/ForumsPage'
+import { OVERWATCH_SHOT_WALLHACK } from '../data/media'
 import { SEO, SITE_URL } from '../data/site'
 
 const initialQuery = Astro.url.searchParams.get('q') ?? ''
@@ -17,5 +18,14 @@ const jsonLdExtra = [
 ---
 
 <BaseLayout seo={SEO.forums} jsonLdExtra={jsonLdExtra}>
+  <img
+    src={OVERWATCH_SHOT_WALLHACK}
+    alt="Overwatch wallhack ESP screenshot on overwatchhack.net"
+    width={640}
+    height={360}
+    class="sr-only"
+    loading="eager"
+    decoding="async"
+  />
   <ForumsPage client:idle initialQuery={initialQuery} />
 </BaseLayout>
